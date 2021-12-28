@@ -72,7 +72,7 @@ export default function ProfileHero() {
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          10
+                          05
                         </span>
                         <span className="text-sm text-gray-500">
                             Awards
@@ -80,14 +80,14 @@ export default function ProfileHero() {
                       </div>
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          89
+                          60
                         </span>
                         <span className="text-sm text-gray-500">
                             Projects</span>
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          89
+                          30
                         </span>
                         <span className="text-sm text-gray-500">Articles</span>
                       </div>
@@ -96,14 +96,14 @@ export default function ProfileHero() {
                 </div>
                 <div className="text-center mt-12">
                   <h3 className="text-4xl font-semibold leading-normal text-gray-800">
-                    FName LName
+                    Luciana Pereira
                   </h3>
                   <div className="text-sm leading-normal mt-0 text-gray-500 font-bold uppercase">
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
-                    City, Province
+                    Vancouver, BC
                   </div>
                   <div className="mb-2 text-gray-700 mt-2">
-                    Position you are looking for
+                    HR Manager
                   </div>
                   <div className="mb-0 text-gray-700">
                     Most Recent Graduation/Master/PhD
