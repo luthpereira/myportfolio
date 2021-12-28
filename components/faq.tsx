@@ -6,7 +6,7 @@ const QAs = [
   {
       index:"01",
       question:"Tell us about a time you faced failure and how you bounced back?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+      answer: "This is a test of my portfolio. I'll update later."
     },
     {
       index:"02",
