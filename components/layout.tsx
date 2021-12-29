@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Footer from './footer';
 
+const { children, ...customMeta } = props;
 const meta = {
     title: 'Luciana Pereira – Sr. HR Manager.',
     description: `I am a seasonal HR professional and a savvy tech-woman for my realm.`,
