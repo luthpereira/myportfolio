@@ -1,13 +1,24 @@
 import Head from 'next/head';
 import Footer from './footer';
 
+const meta = {
+    title: 'Luciana Pereira – Sr. HR Manager.',
+    description: `I am a seasonal HR professional and a savvy tech-woman for my realm.`,
+    image: 'https://pereiraluciana.netlify.app/banner.png',
+    type: 'website',
+    ...customMeta
+  };
+
 export default function Layout({children}) {
   return (
     <main className="bg-gray-50">
       <Head>
-        <title>OpenPortfolio</title>
+        <title>Luciana Pereira - Sr. HR Manager</title>
         <meta name="robots" content="follow, index" />
-        <meta content="description" />
+        <meta content={meta.description} name="description" />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:image" content={meta.image} />
       </Head>
       <section id="skip" className="flex flex-col justify-center bg-gray-50">
         {children}
