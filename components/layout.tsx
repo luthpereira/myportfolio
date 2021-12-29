@@ -1,17 +1,17 @@
 import Head from 'next/head';
 import Footer from './footer';
 
-const { children, ...customMeta } = props;
-const meta = {
-    title: 'Luciana Pereira – Sr. HR Manager.',
-    description: `I am a seasonal HR professional and a savvy tech-woman for my realm.`,
-    image: 'https://pereiraluciana.netlify.app/banner.png',
-    type: 'website',
-    ...customMeta
-  };
-
-export default function Layout({children}) {
-  return (
+export default function Layout(props: { [x: string]: any; children: any; }) {
+    const { children, ...customMeta } = props;
+    const meta = {
+        title: 'Luciana Pereira – Sr. HR Manager.',
+        description: `I am a seasonal HR professional and a savvy tech-woman for my realm.`,
+        image: 'https://pereiraluciana.netlify.app/banner.png',
+        type: 'website',
+        ...customMeta
+      };
+    
+    return (
     <main className="bg-gray-50">
       <Head>
         <title>Luciana Pereira - Sr. HR Manager</title>
